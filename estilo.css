@@ -1,9 +1,19 @@
-div {
+.cabecera {
     color: blue;
     background-color: beige;
     text-align: center;
+
 }    
 .descripcion {
     color: #333;
     font-weight: bold;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
 }
