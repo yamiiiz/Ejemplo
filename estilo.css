@@ -17,3 +17,16 @@
     display: flex;
     flex-direction: column;
 }
+.label {
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.value {
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin-bottom: 32px;
+}
+.input-name, .input-email, .input-password {
+    margin-bottom: 22px;
+}
